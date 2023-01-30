@@ -2,12 +2,19 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: #042A2B;
   padding: 15px;
 }
 header ul {
   float: right;
   color: white;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 50%;
 }
 header li {
   display: inline-block;
@@ -17,14 +24,14 @@ header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #EBF2FA;
   padding: 100px 15px;
 }
 .content {
-  max-width: 300px;
+  max-width: 500px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
+  background-color: white;
   text-align: center;
 }
 button {
@@ -35,7 +42,7 @@ button {
   border-radius: 4px;
 }
 footer {
-  background-color: #373738;
+  background-color: #042A2B;
   padding: 5px;
   color: white;
 }
@@ -66,7 +73,7 @@ footer li {
 .myWork {
   padding: 60px 30px;
   padding-top: 0;
-  background-color: #EBEBEB;
+  background-color: #EBF2FA;
 }
 .workGrid {
   display: grid;
